@@ -11661,12 +11661,12 @@ header.masthead .masthead-heading {
 .prices .h4 {
 	display: block;
 	margin: -2rem -2rem 0 -2rem;
-	padding: 0.5rem 2rem;
+	padding: 0.6rem 2rem;
 	background-color: #ffc800;
 	color: #fff;
-	font-size: 1.125rem;
+	font-size: 1.5rem;
 	font-weight: 800;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
 	box-shadow: inset 0 -6px 12px rgba(0, 0, 0, 0.04);
@@ -11674,6 +11674,16 @@ header.masthead .masthead-heading {
 	border-top-right-radius: 0.5rem;
 	text-align: center;
 	transition: background-color 0.18s ease, transform 0.12s ease;
+}
+
+/* Emphasize the actual price line */
+.prices ul li.price {
+	font-size: 1.35rem;
+	font-weight: 900;
+	color: #0a0a0a;
+	padding: 0.35rem 0;
+	letter-spacing: 0.02em;
+	background: transparent;
 }
 
 .prices:hover h4,
