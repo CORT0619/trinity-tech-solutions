@@ -11634,12 +11634,15 @@ header.masthead .masthead-heading {
 	width: 14rem;
 	height: 14rem;
 	border: 0.5rem solid rgba(0, 0, 0, 0.1);
+	object-fit: cover;
 }
 .prices {
 	border: 2px solid #ffc800;
 	border-radius: 0.5rem;
-	padding: 2rem;
-	height: 20rem;
+	padding: 2rem 2rem 4rem 2rem;
+	min-height: 20rem;
+	max-height: 24rem;
+	overflow: hidden;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 	transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
